@@ -1,0 +1,6 @@
+RewriteEngine On
+
+
+
+RewriteRule ^([a-zA-Z0-9_-]+)-([0-9]+).html$ index.php?mod=page&controller=index&action=detail&id=$2&slug=$1
+RewriteRule ^nguoi-dung/([a-zA-Z0-9_-]+)-([0-9]+).html$ index.php?mod=users&controller=index&action=index&id=$2&slug=$1

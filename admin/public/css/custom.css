@@ -1,0 +1,53 @@
+.margin-0-20{
+    margin: 0 20px;
+}
+
+.border-top-1px-solid-ddd{
+    border-top: 1px solid #ddd;
+}
+
+.table.list-user>tbody>tr>td{
+    border: 1px solid #ddd;
+}
+.table.list-user>tbody>tr>td{
+    border: 1px solid #ddd;
+}
+
+.table.list-user .tb-title{
+    width: 90%;
+}
+.table.list-user .list-operation{
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.table.list-user tr td>a{
+    color: #ddd;
+}
+.table.list-user tr td>a:hover{
+    color: #777;
+}
+
+.list-table-wp tbody tr td:hover a{
+    color: #ddd;
+}
+.list-table-wp tbody tr td a:hover{
+    color: #777;
+}
+
+img{
+    object-fit: cover;
+}
+
+#list-paging li.active a{
+    color: blue;
+}
+
+.tbody-thumb img{
+    border: 0px;
+}
+
+.unset-border-bot-right-left{
+    border-width:1px 0  0 0;
+}

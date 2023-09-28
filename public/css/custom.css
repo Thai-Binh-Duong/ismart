@@ -1,0 +1,46 @@
+#list-product-wp .section-detail .list-item li{
+    max-height: 400px;
+    height: 400px;
+}
+
+#list-product-wp .section-detail .list-item li a img{
+    height: 180px;
+    object-fit: cover;
+}
+
+#info-cart-wp table tbody tr td .thumb{
+    border-width: 0px;
+}
+
+.empty-cart{
+    color: #000;
+    text-align: center;
+}
+
+.d-block{
+    display: block;
+} 
+.text-center{
+    text-align: center;
+}
+
+#list-thumb a img{
+    width:100%;
+    object-fit:cover;
+}
+#main-thumb img{
+    width:350px;
+    max-width: 350px;
+    height:350px;
+    object-fit:cover
+}
+
+.btn-add-to-cart{
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+}
+
+.error{
+    color: red;
+}
